@@ -28,7 +28,13 @@ export default function TaskForm({ onAdd, close, editingTask}) {
 
   return (
     <>
+    
+      <div className="modal-header">
       <h2>Add Task</h2>
+      <button className="cancel-btn" onClick={close}>
+        ✖ Cancel
+      </button>
+    </div>
 
       <input
         placeholder="Task title"

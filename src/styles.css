@@ -162,3 +162,76 @@ body {
   margin-top: 20px;
 }
 
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+/* LEFT */
+.task-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.task-left .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.task-left .assignee {
+  font-size: 13px;
+  color: #b5b5b5;
+}
+
+/* RIGHT */
+.task-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ACTION ICONS */
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.actions button {
+  background: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actions button:hover {
+  background: #333;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.cancel-btn {
+  background: transparent;
+  color: #aaa;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: #fff;
+}
